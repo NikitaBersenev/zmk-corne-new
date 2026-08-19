@@ -83,9 +83,9 @@
 
         layer_28 {
             bindings = <
-&none  &kp ESC     &kp Q  &kp W  &kp E      &kp R     &kp T           &kp SLASH  &kp Y      &kp U          &kp I      &kp O  &kp P          &none
-       &kp TAB     &kp A  &kp S  &kp D      &kp F     &kp G           &kp APOS   &kp H      &kp J          &kp K      &kp L  &kp SEMICOLON
-       &kp LSHIFT  &kp Z  &kp X  &kp C      &kp V     &kp B           &kp DOT    &kp N      &kp M          &kp COMMA  &mo 1  &mo 2
+&none  &kp ESC     &kp Q  &kp W  &kp E      &kp R     &kp T           &mo 2      &kp Y      &kp U          &kp I      &kp O    &kp P          &none
+       &kp TAB     &kp A  &kp S  &kp D      &kp F     &kp G           &kp APOS   &kp H      &kp J          &kp K      &kp L    &kp SEMICOLON
+       &kp LSHIFT  &kp Z  &kp X  &kp C      &kp V     &kp B           &kp SLASH  &kp N      &kp M          &kp COMMA  &kp DOT  &mo 1
                                  &kp LCTRL  &kp LWIN  &kp LEFT_ALT    &kp ENTER  &kp SPACE  &kp BACKSPACE
             >;
         };
