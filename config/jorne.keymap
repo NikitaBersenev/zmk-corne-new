@@ -99,21 +99,12 @@
             >;
         };
 
-        layer_3 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &none     &kp UP_ARROW    &trans     &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans  &trans    &none   &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans          &trans     &trans  &trans
-                                &trans  &trans  &trans    &trans  &trans    &trans
-            >;
-        };
-
         layer_5 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                                &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans          &kp UP_ARROW    &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans          &trans          &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                                        &trans          &trans     &trans    &trans  &trans  &trans
             >;
         };
 
@@ -150,6 +141,15 @@
         &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
         &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                                 &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &none     &kp UP_ARROW    &trans     &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans  &trans    &none   &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans          &trans     &trans  &trans
+                                &trans  &trans  &trans    &trans  &trans    &trans
             >;
         };
 
